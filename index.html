@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>HTML5 Semantics</title>
+</head>
+<body>
+    <header>
+        <h1>All about cats</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <form role="search" aria-label="site">
+        <label>
+            <input type="search" />
+        </label>
+        <button type="submit" onClick="showAlert()">Search</button>
+    </form>
+    <main>
+        <section>
+          <h2>Cat Articles</h2>
+          <p>When it comes to caring for your cat, you need to get your information from an expert. To see what Purina’s experts have to say about cat nutrition, behavior, development, training and more, explore all our articles below.</p>
+
+          <article>
+            <h2>Wet vs. Dry Cat Food: Which is Better?</h2>
+            <p>Some cat owners prefer to feed their cats wet food. Others prefer dry kibble. Trying to decide between wet vs. dry cat food? Find out what our experts recommend when it comes to feeding your cat.</p>
+            <figure>
+                <img src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Cat1">
+                <figcaption>Cat Nutrition</figcaption>
+            </figure>
+          </article>
+
+          <article>
+            <h2>How Much Wet Food Should I Feed My Cat?</h2>
+            <p>If you aren’t sure how much wet food you should feed your cat, Purina’s expert nutritionists can help. Plus, they offer guidance on food safety and provide serving ideas your cat will love.</p>
+
+            <figure>
+                <img src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Cat2">
+                <figcaption>Cat Feeding</figcaption>
+            </figure>
+          </article>
+          <article>
+            <h2>Cat Hydration – Do Cats Drink Water?</h2>
+            <p>Do cats drink water? Yes, like humans and many other animals, cats need water to survive. Many cats don’t drink as much as they should, though. Find out why they need water and how to get your own kitty to drink more.</p>
+          
+            <figure>
+                <img src="https://images.pexels.com/photos/1276553/pexels-photo-1276553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Cat3">
+                <figcaption>Cat Health</figcaption>
+            </figure>
+          </article>
+        </section>
+        
+        <aside>
+            <h3>Connect</h3>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Github</p>
+        </aside>
+    </main>
+    <footer>
+        &COPY; hacktiv8 2019
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
