@@ -1,0 +1,40 @@
+html, body {
+    margin: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    height: 80px;
+}
+
+nav {
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1%;
+}
+
+main {
+    display: flex;
+    border: 2px solid grey;
+    margin: 1%;
+}
+
+aside {
+    border: 1px solid grey;
+    float: right;
+    display: block;
+    width: 30%; 
+}
+
+img {
+    width: 30%;
+}
