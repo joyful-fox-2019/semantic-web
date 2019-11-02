@@ -130,6 +130,16 @@ nav {
     right: 27%;
 }
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("./img/footer.png");
+    color: whitesmoke;
+    text-align: center;
+}
+
 @keyframes drop {
     0% {
         opacity: 0;
