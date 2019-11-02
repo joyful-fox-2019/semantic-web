@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!--Materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./Styles/style.css">
+
+    <title>World of Demos</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:cadetblue;">
+        <a href="#" id="home">
+            <img src="./Images/logo_transparent.png" alt="logo"
+                style="height: 110px; width: 110px; margin-bottom: -100px; margin-top: -95px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item songs">
+                    <a class="nav-link" href="#">Songs</a>
+                </li>
+                <li class="nav-item food">
+                    <a class="nav-link" href="#">Foods</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Welcome-->
+    <div id="overlay">
+        <img src="./Images/loading.gif" alt="Loading" />
+    </div>
+    <div class="welcome">
+        <img src="./Images/logo_transparent.png" alt="logo"
+            style="width: 30%; height: 30%; display: block; margin: 0 auto;">
+        <h3>Welcome to World of Demos</h3>
+        <p>World of demos is a place where all demos from songs and from food videos go.</p>
+        <p>You can watch every song demo by clicking <b>Songs</b> in the navigation bar.The songs demo filtered by genre
+            from pop,kpop to 80's - 90's.</p>
+        <p>You can watch every food demos in <b>Foods</b> tab and the videos filtered from pasta,asian,to western</p>
+    </div>
+
+    <!--Songs Content-->
+    <ul class="collapsible" id="songContainer">
+        <li>
+            <div class="collapsible-header"><i class="fa fa-music" aria-hidden="true"></i>
+                Pop</div>
+            <div class="collapsible-body">
+                <div class="artist">
+                    <h6>Artist : Michael Jackson</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/obvf95aCyWs"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="artist">
+                    <h6>Artist : Lauv</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/d1pkH5I7AGk"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="fa fa-music" aria-hidden="true"></i>
+                Kpop</div>
+            <div class="collapsible-body">
+                <div class="artist">
+                    <h6>Artist : EXO</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2K_mHXCbQwM"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="artist">
+                    <h6>Artist : Girl's Generation</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VJBqenH35Gs"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="fa fa-music" aria-hidden="true"></i>
+                80's - 90's</div>
+            <div class="collapsible-body">
+                <div class="artist">
+                    <h6>Artist : Queen</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0V9OfcE8dK8"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="artist">
+                    <h6>Artist : Oasis</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/V28MtgQGKTA"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <!--Food Content-->
+    <ul class="collapsible" id="foodContainer">
+        <li>
+            <div class="collapsible-header"><i class="fa fa-music" aria-hidden="true"></i>
+                Pasta</div>
+            <div class="collapsible-body">
+                <div class="artist">
+                    <h6>Food : Lasagna</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BFrkRFgHLVk"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="artist">
+                    <h6>Food : Spaghetti Carbonara</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3AAdKl1UYZs"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="fa fa-music" aria-hidden="true"></i>
+                Asia</div>
+            <div class="collapsible-body">
+                <div class="artist">
+                    <h6>Food : Ramen</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aafmrrx7Bh4"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="artist">
+                    <h6>Food : Jajangmyeon</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/F4Cm75Qvk4A"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="fa fa-music" aria-hidden="true"></i>
+                Western</div>
+            <div class="collapsible-body">
+                <div class="artist">
+                    <h6>Food : Beef Burger</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iM_KMYulI_s"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="artist">
+                    <h6>Food : Fish n Chips</h6>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zit9l5jtbws"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <!--Footer-->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">World of Demos</h5>
+                    <p class="grey-text text-lighten-4">The place where all the demos go.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Follow Us</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="https://www.instagram.com/" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="https://twitter.com/" target="_blank">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Hacktiv8 Semantic-Web Project
+            </div>
+        </div>
+    </footer>
+
+
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!--JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
