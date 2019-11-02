@@ -1,0 +1,79 @@
+html {
+    position: relative;
+}
+
+#navbar a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding: 10px;
+    
+}
+
+body {
+    margin-bottom: 100px;
+    clear: both;
+    margin-top : 20px;
+}
+
+.about p {
+    text-align: justify;
+}
+.content {
+    width: 80%;
+    margin: 0px auto;
+
+}
+
+.carousel {
+    width:75%;
+    margin: 0px auto;
+}
+
+.img-thumbnail {
+    width: 100%;
+}
+
+#about {
+    min-height: 220px;
+}
+#portofolio {
+    min-height: 400px;
+}
+
+.jumbotron img {
+    width : 200px;
+    border : 3px solid grey;
+}
+
+hr{
+    width: 250px;
+    border-top: 6px solid indianred; 
+}
+
+section {
+    min-height: 350px;
+}
+
+#contact {
+    min-height: 650px;
+}
+
+
+footer {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(54, 49, 44);
+    padding-top : 40px
+}
+
+footer p {
+    font-size: 0.9em;
+    color: white;  
+}
+
+footer p i {
+    color: red;
+}
+

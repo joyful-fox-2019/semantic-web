@@ -1,0 +1,29 @@
+cara awal pembuatan bootstrap
+1. menggunakan jumbotron buat header
+** selalu bikin commnent untuk setiap web
+2. menggunakan "rounded-circle" biar gambar bulet
+** untuk setiap coding css selalu ingat ;
+
+3. menggunakan grid system
+4. gunakan section sama dengan div
+** ini dipakai buat ngebuat bagian batru halaman
+    1. selalu taruh container setetelah section **buat wadah grid
+    2. selalu buat row setelah container
+    3. setiap row akan ada 12 col jumlah totalnya
+      --> hr untuk  bikin garis kaya border kalo kita setting width dia akan langsung mulai dari tengah
+    4. contonh div.col-sm-6 dengan div.col-sm-6 atau div.col-sm-4 dengan div.col-sm-8
+    5. offset digunakan untuk mengosongkan kolom pertama
+      --> contoh :  offset-sm-1
+    6. gunakan parameter min-height : untuk mengatur panjang minimal grid  
+    7. biasakan gunakan id dan class id entar buat jquery class buat bootstrap 
+    8.ukuran gambar untuk colom pada grid biasakan sama biar bagus
+    9. gunakan class = img-thumbnail untuk bikin gambar di border biar bagus
+    10. bikin form
+        --> div.form-group
+            --> label
+            --> input.form-control#name
+            --> type: tel untuk no hp, email for email
+            --> menggunakan glyoicon di bootstrap
+            --> bokin footer biar fix pake position : absolute
+            --> bikin navbar di kiri dengan navbar-right
+
