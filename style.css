@@ -1,0 +1,265 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #111111;
+}
+
+#nav-bar {
+    background-color: #000000;
+    padding: 1.4em;
+    width: 100%;
+    position: relative;
+}
+
+#nav-bar ul {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+#nav-bar ul li img {
+    height: 1.4em;
+}
+#nav-bar li select option{
+    float: left;
+}
+
+#nav-bar ul li {
+    text-decoration: none;
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+#header-videos video {
+    padding-left: 3em;
+    width: 100%;
+    padding-right: 3em;
+}
+
+#header-videos .text-videos {
+    padding-left: 17%;
+    padding-top: 1em;
+    color: white;
+    padding-bottom: 2em;
+    font-size: 1.5em;
+    background-color: #111111;
+    position: sticky;
+    top: 0;
+}
+
+.column1 {
+    width: 100%;
+    padding: 10px;
+    height: 20em;
+    background: no-repeat;
+    background-size: 30%;
+    background-position-y: 3em;
+    background-position-x: 10em;
+    background-image: url('https://api.sammobile.com/static/samsung-galaxy-fold_black_back_open.png?');
+}
+
+.column2 {
+    width: 100%;
+    padding: 10px;
+    height: 40em;
+    background: no-repeat;
+    background-size: 50%;
+    background-position-y: 0em;
+    background-position-x: 25em;
+    background-image: url('https://cdn.geekwire.com/wp-content/uploads/2019/05/Samsung-Galaxy-Fold-630x474.png');
+}
+
+.column3 {
+    width: 100%;
+    padding: 10px;
+    height: 20em;
+    background: no-repeat;
+    background-size: 20%;
+    background-position-y: 3em;
+    background-position-x: 30em;
+    background-image: url('./img/fide.png');
+}
+
+.column4 {
+    width: 100%;
+    padding: 10px;
+    height: 30em;
+    background: no-repeat;
+    background-size: 45%;
+    background-position-y: 2em;
+    background-position-x: 30em;
+    background-image: url('https://www.samsung.com/global/galaxy/galaxy-fold/images/galaxy-fold_highlight_kv_silver_end.png');
+}
+
+.columnEmpty {
+    margin:0px auto;
+    width: 40%;
+    padding: 10px;
+    height: 30em;
+}
+
+.row {
+    margin: 0 3em;
+    margin-top: 1em;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.blueTable{
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.blueTable .head{
+    border-right: 1px solid #AAAAAA;
+    padding: 0 5em;
+}
+
+.blueTable td{
+    justify-content: center;
+    font-size: 50em;
+    padding: 1em;
+}
+
+.blueTable tbody td {
+    color: white;
+    font-size: 20px;
+}
+
+.columnEmpty span{
+    font-size: 5em;
+    font-weight: bolder;
+    color: white;
+}
+.columnEmpty a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10em;
+    padding-bottom: 10px;
+}
+footer img{
+    padding-left: 10px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+} footer img:hover {
+    filter: grayscale(0%);
+}
+
+.colour{
+    color: white;
+}
+
+#order-videos a{
+    text-decoration: none;
+    padding-left: 3%;
+    font-size: 20px;
+    transition: 0.4s;
+    color: rgba(255, 255, 255, 0.397);
+}
+#order-videos a:hover{
+    color: white;
+    transition: 0.4s;
+}
