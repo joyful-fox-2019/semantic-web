@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Raleway", sans-serif;
+    }
+
+    .front-page {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/snow.JPG);
+      height: 110vh;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      color: white;
+    }
+
+    .small-text {
+      font-size: 24px;
+      font-weight: 400;
+      font-style: italic;
+      padding-top: 33vh;
+    }
+
+    .big-text {
+      text-decoration: none;
+      font-size: 60px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: white;
+    }
+
+    .big-text:hover {
+      font-size: 65px;
+      font-weight: bold;
+    }
+
+    /*SUMMARY*/
+    .summary-content {}
+
+    .tagline {
+      font-size: 22px;
+      font-weight: 600;
+      padding-top: 40px;
+      font-style: italic;
+      text-align: center;
+    }
+
+    .summary {
+      font-size: 20px;
+      font-weight: 400;
+      padding: 30px 0;
+      text-align: justify;
+      line-height: 1cm;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $("#click").click(function (event) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: $("#scroll").offset().top
+        }, 800, function () {
+        });
+      });
+    });
+  </script>
+  <title>Semantic Web</title>
+</head>
+
+<body>
+  <div class="front-page">
+    <p class="small-text">Hey, I'm</p>
+    <a id="click" href="" class="big-text">Luky Winata</a>
+    <p style="font-style: italic; font-size:12px;">Click for Profile</p>
+  </div>
+  <div class="summary-content" id="scroll">
+    <p class="tagline">- resilient, open minded, adventurer -</p>
+    <p class="summary" style="margin: 0 15%">
+      I have working experience in marketing and operational role as a management consulting analyst. My ex-supervisor
+      told me that I can execute task efficiently, deliver solid quality of work, and support others well. Moreover, I
+      possess practical knowledge in industry research, data analysis capability, and slide writing ability to
+      contribute in project delivery. I enjoy to collaborate with clients and colleagues in a multicultural
+      environment.
+    </p>
+  </div>
+
+</body>
+
+</html>
