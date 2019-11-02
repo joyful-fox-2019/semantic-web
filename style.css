@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+body {
+    font-family: 'Staatliches', cursive;
+    word-spacing: 2px;
+}
+
+#overlay {
+    display: block;
+    margin: 20% auto;
+    width: 20%;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.collapse .navbar-nav .nav-item a {
+    font-size: 18px;
+}
+
+#songContainer {
+    margin-top: 5%;
+}
+
+#foodContainer {
+    margin-top: 5%;
+}
+
+
+.collapse .nav a {
+    padding: 0px;
+}
+
+iframe {
+    border: 0px;
+}
