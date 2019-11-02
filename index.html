@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>SEMANTIC-WEB</title>
+</head>
+
+<body>
+    <main id="navbar">
+        <nav id="nav-bar">
+            <ul class="icon">
+                <li> <a href="#Home"><img id="logo-navbar" src="./img/a.png" alt="logo"></a></li>
+                <li>
+                    <select class="theme" onclick="changeTheme()">
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </main>
+
+    <div id="header-videos">
+        <div class="text-videos">
+            <span> Samsung Galaxy <b>Fold</b></span>
+            <span id="order-videos"> <a
+                    href="https://www.samsung.com/function/ipredirection/ipredirectionLocalList/">ORDER NOW</a></span>
+        </div>
+        <div id="videos">
+            <video autoplay loop>
+                <source src="./video/videoplayback.webm" type="video/webm">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <div class="row">
+            <div class="column1" style="background-color:#000000;"></div>
+        </div>
+        <div class="row">
+            <div class="column2" style="background-color:#000000;"></div>
+        </div>
+        <div class="row">
+            <div class="column3" style="background-color:#000000;"></div>
+        </div>
+        <div class="row">
+            <div class="column4" style="background-color:#000000;"></div>
+        </div>
+        <div class="row">
+            <div class="columnEmpty">
+                <span>Spesification</span>
+                <table class="blueTable">
+                    <tbody>
+                        <tr>
+                            <td class="head colour">OS</td>
+                            <td class="colour">Android 9 (Pie) 🍞</td>
+                        </tr>
+                        <tr>
+                            <td class="head colour">Memory</td>
+                            <td class="colour">12GB RAM with 512GB internal storage</td>
+                        </tr>
+                        <tr>
+                            <td class="head colour">Battery</td>
+                            <td class="colour">LTE model: 4380mAh (typical) dual battery <br> 5G model: 4235mAh (typical) dual battery</td>
+                        </tr>
+                        <tr>
+                            <td class="head colour">MORE</td>
+                            <td><a href="https://www.samsung.com/global/galaxy/galaxy-fold/specs/" class="colour">All Spesification</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer id="about">
+        <a href="https://www.samsung.com/global/galaxy/galaxy-fold/">
+            <img src="http://pngimg.com/uploads/samsung_logo/samsung_logo_PNG14.png" style="height: 60px;" alt="Samsung"
+                title="Samsung">
+        </a>
+        <img src="./img/x.png" style="height: 30px;" alt="X">
+        <img src="./img/aq.png" style="height: 45px;" alt="AsianTech" title="AsianTech">
+    </footer>
+    <audio src="./ogg/Caring-for-your-Galaxy-Fold.ogg" autoplay loop></audio>
+    <script src="./script.js"></script>
+</body>
+
+</html>
