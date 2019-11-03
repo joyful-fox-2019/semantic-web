@@ -1,0 +1,43 @@
+img {
+  width: 25%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+p {
+  font-size: 18px;
+  padding-top: 25px;
+}
+
+.bg-1 {
+  background-color: #1a89bc; /* Green */
+  color: #ffffff;
+}
+.bg-2 {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.fa {
+  margin: 0 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.profile {
+  width: 100%;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 30% auto;
+  line-height: 50px;
+}
