@@ -1,0 +1,87 @@
+body {
+  background-color: #E2FBEA;
+  font-family: Arial;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#navbar {
+  background-color: #C0F8D1;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.logo,
+.socmed {
+  display: flex;
+  align-items: center;
+}
+
+.logo,
+.socmed-link {
+  padding: 30px 30px;
+}
+
+.socmed-link a,
+.logo a {
+  color: #0cebcd;
+}
+
+.socmed-link a:hover {
+  color: rgb(18, 173, 184);
+  transition: all 0.3s ease 0s;
+}
+
+.header {
+  background-color: aquamarine;
+  width: 100%;
+  text-align: center;
+  font-family: Arial;
+  border-color: aquamarine;
+}
+
+.leftCol {
+  width: 50%;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.fakeimg {
+  background-color: rgb(146, 216, 207);
+  width: 250px;
+  height: 80px;
+  padding: 20px;
+}
+
+.card {
+   background-color: rgb(113, 233, 177);
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: rgb(7, 226, 171);
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftCol, .rightCol {   
+    width: 100%;
+    padding: 0;
+  }
+}  
