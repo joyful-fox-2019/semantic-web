@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>D-Blog Semantic</title>
+    <style>
+        html {
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        ::-webkit-scrollbar {
+            width: 0px; 
+            background: transparent;  
+        }
+
+    </style>
+</head>
+<body>
+    <header class="bg-dark d-flex align-items-center" style="height: 10vh;">
+        <nav class="p-0 navbar navbar-expand navbar-dark bg-dark h-100 w-100">
+            <div class="d-flex align-items-center h-100 p-3" style="background-color: rgb(105, 0, 0);">
+                <a class="navbar-brand font-weight-bold mr-1" href="#">D-Blog</a>
+                <img src="https://avatars0.githubusercontent.com/u/53108094?s=460&v=4" alt="logo" width=30>
+            </div>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarsExample02">
+             <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            
+            <div id="user-name" class="d-flex justify-content-center mx-2">
+                <button class="btn btn-sm btn-light mr-2 font-weight-bold">Write Blog <span><img src="https://image.flaticon.com/icons/svg/1250/1250616.svg" alt="iconWrite" width="25"></span></button>
+                <button class="btn btn-sm btn-light mr-2 font-weight-bold">Profile <span><img src="https://image.flaticon.com/icons/svg/126/126486.svg" alt="iconWrite" width="25"></span></button>
+                <p class="font-weight-bold m-0 text-white align-self-center">Hai! Dadepe</p>
+            </div>
+            <!-- <button class="btn btn-sm btn-info">Login</button> -->
+          </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid pt-3" style="height: 85vh; overflow: scroll;">
+        <div 
+        class="jumbotron p-4 p-md-5 text-white rounded bg-dark" 
+        style="background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(./banner.jpg); background-size: cover;"
+        >
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 font-italic">Welcome to D-Blog</h1>
+            <p class="lead my-3">Create and build your blog, Write about your life, build a beautiful portfolio of your work — it’s up to you.</p>
+            <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Enjoy your visit on D-Blog</a></p>
+          </div>
+        </div>
+        <div>
+            <h3 class="mb-4 font-italic font-weight-bold">
+              Featured Blog
+            </h3>
+        </div>
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Sports</strong>
+                <h3 class="mb-0">Sports Title</h3>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">Sports content description.</p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="http://wallpaperping.com/wp-content/uploads/2018/09/sports-wallpapers-hd-1078x516.jpg" alt="sports" style="object-fit: cover;" width="200" height="250">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Daily-Life</strong>
+                <h3 class="mb-0">Daily-Life title</h3>
+                <div class="mb-1 text-muted">Nov 11</div>
+                <p class="mb-auto">Daily-Life content description.</p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                    <img src="https://fsb.zobj.net/crop.php?r=_E5Q3uHuShXJg4o8o_AyWCDfTRRnFr-xjCPtS89uUqpo8MUHrRYIy2xFKjq-qdbIHg7eWFG2v6_e9XqNC5uggrB47FMnnEpDdyblwedPX0UbFGwHtcLU0PRJz4noJxasc8jA5QMQpxsW904GObmPEauirrKNXVGqIMO6jd6K9Mr1Q2rSJlE6KnaIFWo" alt="daily-life" style="object-fit: cover;" width="200" height="250">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <main class="container">
+          <div class="row">
+            <div class="col-md-8 blog-main">
+              <h3 class="pb-4 mb-4 font-italic border-bottom">
+                Popular Blog
+              </h3>
+          
+              <div class="blog-post border-bottom pb-2">
+                <h2 class="blog-post-title">Semangat Phase-2</h2>
+                <p class="blog-post-meta">January 1, 2014 by <a href="#">Rizky</a></p>
+            
+                <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+                <hr>
+                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                <blockquote>
+                  <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </blockquote>
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+          
+              <div class="blog-post border-bottom pb-2">
+                <h2 class="blog-post-title">Ayam Sabana</h2>
+                <p class="blog-post-meta">December 23, 2013 by <a href="#">Dhimas</a></p>
+            
+                <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                <blockquote>
+                  <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </blockquote>
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+          
+              <div class="blog-post border-bottom pb-2">
+                <h2 class="blog-post-title">Jagung Bakar</h2>
+                <p class="blog-post-meta">December 14, 2013 by <a href="#">Rubhi</a></p>
+            
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <ul>
+                  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                  <li>Donec id elit non mi porta gravida at eget metus.</li>
+                  <li>Nulla vitae elit libero, a pharetra augue.</li>
+                </ul>
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+          
+              <nav class="blog-pagination">
+                <a class="btn btn-outline-primary" href="#">Others</a>
+              </nav>
+          
+            </div>
+        
+            <aside class="col-md-4 blog-sidebar">
+          
+              <div class="p-4">
+                <h4 class="font-italic">Tags</h4>
+                <ol class="list-unstyled mb-0">
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Daily-Life</a></li>
+                  <li><a href="#">Politics</a></li>
+                  <li><a href="#">Health</a></li>
+                  <li><a href="#">Travels</a></li>
+                  <li><a href="#">Automotive</a></li>
+                  <li><a href="#">Electronics</a></li>
+                  <li><a href="#">Hobby</a></li>
+                </ol>
+              </div>
+          
+            </aside>
+        
+          </div>
+      
+        </main>
+    </div>
+                
+
+                
+    <footer  style="height: 5vh; background-color: rgb(105, 0, 0);" class="blog-footer d-flex justify-content-center">
+      <p class="text-white font-weight-bold m-0 align-self-center">&copy; 2019 D-Blog </p>
+    </footer>
+</body>
+</html>
