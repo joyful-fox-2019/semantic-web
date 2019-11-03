@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <title>Andreas Holiwono</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <div class="container navbar">
+      <div class="logo">
+        <a href="index.html">
+          <h2>AH!</h2>
+        </a>
+      </div>
+      <div class="socmed">
+        <div class="socmed-link">
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="socmed-link">
+          <a href="https://www.github.com/"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+        <div class="socmed-link">
+          <a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header">
+    <img src="img/andreas.jpg" alt="" width="100" height="100" />
+    <h1>Hi! I am Andreas</h1>
+    <p>Welcome to my page</p>
+  </header>
+  <br>
+  <div style="text-align: center;">
+    <button onclick="showAddArticle()">Add New Article</button>
+  </div>
+  <div class="modal fade" id="addNewArticle">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Add a New Task</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            Title:
+            <br>
+            <input id="newName">
+            <br>
+            Date:
+            <br>
+            <input id="newDate">
+            <br>
+            Description:
+            <br>
+            <input id="newDescription">
+            <br>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button onclick="addArticle()" type="button" class="btn btn-primary">Add New Article</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <div id="article" class="leftCol mx-auto;"></div>
+  <div class="footer">
+    <img src="img/350.png" alt="" width="50" height="50" />
+    <img src="img/730.png" alt="" width="50" height="50" />
+    <img src="img/658.png" alt="" width="50" height="50" />
+    <img src="img/230.png" alt="" width="50" height="50" />
+    <img src="img/395.png" alt="" width="50" height="50" />
+    <img src="img/131.png" alt="" width="50" height="50" />
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
