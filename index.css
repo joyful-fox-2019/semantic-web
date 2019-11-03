@@ -1,0 +1,52 @@
+body {
+	background: url(./assets/images/background.jpg);
+}
+
+#logo {
+	max-width: 260px;
+}
+
+#promo {
+	background: url(./assets/icons/promo.png);
+}
+
+#pizza {
+	background: url(./assets/icons/pizza.png);
+}
+
+#pasta {
+	background: url(./assets/icons/pasta.png);
+}
+
+#chicken {
+	background: url(./assets/icons/chicken.png);
+}
+
+#rice {
+	background: url(./assets/icons/rice.png);
+}
+
+#more {
+	background: url(./assets/icons/more.png);
+}
+
+h5 {
+	color: yellow;
+}
+
+a {
+	color: white;
+}
+
+nav {
+	background-color: rgba(0,0,0,.4)
+}
+
+.navbar-icon {
+	max-width: 50px;
+	display: block;
+}
+
+.nav-link {
+	border: #FFF
+}
