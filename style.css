@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+@media print {
+  .container {
+    width: auto;
+  }
+}
+.carousel {
+  width:100%;
+  height:70%;
+}
+.carousel-item img {
+  opacity: 1;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50px;
+}
+.footer-home {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
