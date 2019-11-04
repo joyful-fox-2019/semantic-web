@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    position: relative;
+    background-color: #ECEFF1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+}
+  
+li {
+    float: none;
+    display: inline-block;
+    margin: 0px 15px;
+    font-family: 'Noto Serif', serif;
+} 
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: yellow;
+    transition: 0.4s;
+}
+
+.main-page {
+    height: 100vh;
+    /* the image from authentik.com */
+    background-image: url("welcome.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.mainPage-content {
+    text-align: center;
+}
+
+.content-name {
+    font-size: 80px;
+    margin-top: 200px;
+    margin-bottom: 25px;
+}
+
+.content-description {
+    font-size: 20px;
+    width: 680px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.content-button {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Domine', serif;
+}
+
+.content-button:hover {
+    background-color: yellow;
+    color: black;
+    transition: 0.6s;
+    border: 2px solid yellow;
+}
+
+.about-page {
+   margin: 0;
+   padding: 0;
+}
+
+.main-about {
+    text-align: center;
+}
+
+#main-about-first {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#main-about-h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+#main-about-p {
+    width: 500px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: solid 2px black;
+    width: 50px;
+}
+
+.first-about {
+    display: block;
+    float: left;
+    width: 33.33%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-about-img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.first-about-h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-about-p {
+    text-align: center;
+    font-size: 18px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+}
+
+.ending {
+    margin-top: 450px;
+    margin-bottom: 50px;
+    border: solid 2px black;
+}
+
+.resume-page {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+ 
+.main-resume {
+     text-align: center;
+}
+ 
+#main-resume-first {
+     font-size: 16px;
+     margin-bottom: 15px;
+     margin-top: 50px;
+     padding-top: 50px;
+}
+ 
+#main-resume-h1 {
+     font-size: 45px;
+     margin-bottom: 30px;
+     margin-top: 15px;
+}
+ 
+#main-resume-p {
+     width: 400px;
+     font-size: 20px;
+     line-height: 30px;
+     margin-top: 30px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Noto Serif', serif;
+    display: inline-block;
+}
