@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <title>Figure Dota</title>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="logo-container">
+            <img src="./img/logodota2.png" alt="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" onclick="update()" href="#">Info Hero</a></li>
+                <li><a class="nav-link" onclick="update()" href="#">Product</a></li>
+                <li><a class="nav-link" onclick="update()" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <img src="./img/cart.svg" alt="cart">
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <section class="presentation">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h1>Figure Shadow Fiend</h1>
+                    <p>
+                        Statue Resin, with Big Base and Good Prototype.
+                    </p>
+                </div>
+                <div class="cta">
+                    <button onclick="update()" class="cta-select">More</button>
+                    <button onclick="update()" class="cta-add">Add to Cart</button>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="./img/logosf.gif" alt="shadowfiend">
+            </div>
+        </section>
+
+        <div class="figure-select">
+            <img src="./img/arrow-left.svg" alt="">
+            <img src="./img/dot.svg" alt="">
+            <img src="./img/dot-full.svg" alt="">
+            <img src="./img/dot-full.svg" alt="">
+            <img src="./img/arrow-right.svg" alt="">
+        </div>
+    </main>
+    <footer>
+        <p>Edwin Satya Yudistira &copy; Copyright 2019</p>
+    </footer>
+    <script>
+        function update() {
+            console.log('wooi')
+            Swal.fire({
+                type: 'error',
+                title: 'Oops....',
+                text: 'incoming update :)'
+            })
+        }
+    </script>
+</body>
+
+</html>
